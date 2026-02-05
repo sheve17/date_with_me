@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220" viewBox="0 0 220 220">
+  <defs>
+    <clipPath id="circleCrop">
+      <circle cx="110" cy="110" r="88"/>
+    </clipPath>
+    <radialGradient id="photoBg" cx="42%" cy="30%" r="82%">
+      <stop offset="0" stop-color="#fdf5ee"/>
+      <stop offset="1" stop-color="#efc8aa"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3e2a22"/>
+      <stop offset="1" stop-color="#221712"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdfa"/>
+      <stop offset="1" stop-color="#f2ece8"/>
+    </linearGradient>
+  </defs>
+
+  <g clip-path="url(#circleCrop)">
+    <rect width="220" height="220" fill="url(#photoBg)"/>
+
+    <ellipse cx="98" cy="88" rx="42" ry="49" fill="url(#hair)"/>
+    <ellipse cx="98" cy="97" rx="30" ry="35" fill="#f8d4bf"/>
+    <circle cx="88" cy="92" r="2.8" fill="#3d2a24"/>
+    <circle cx="108" cy="92" r="2.8" fill="#3d2a24"/>
+    <path d="M85 112c4 6 19 6 23 0" fill="none" stroke="#cb7562" stroke-width="3" stroke-linecap="round"/>
+
+    <g transform="translate(105 108)">
+      <ellipse cx="38" cy="34" rx="42" ry="30" fill="#fffdfa"/>
+      <ellipse cx="18" cy="19" rx="12" ry="18" fill="#b1632f"/>
+      <ellipse cx="58" cy="20" rx="12" ry="18" fill="#b1632f"/>
+      <ellipse cx="38" cy="26" rx="12" ry="10" fill="#f8f5f1"/>
+      <circle cx="38" cy="29" r="3" fill="#2b221e"/>
+      <path d="M30 39c4 6 12 6 16 0" fill="none" stroke="#aa5952" stroke-width="2.8" stroke-linecap="round"/>
+    </g>
+
+    <path d="M32 190c36-34 120-34 156 0" fill="url(#shirt)" opacity="0.95"/>
+  </g>
+
+  <circle cx="110" cy="110" r="88" fill="none" stroke="#eec8ac" stroke-width="6"/>
+</svg>
