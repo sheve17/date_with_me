@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Приглашение на свидание</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card">
+        <div class="heart" aria-hidden="true"></div>
+        <h1>ты пойдешь со мной на свидание?</h1>
+      </section>
+
+      <div class="actions" aria-label="Ответ">
+        <button class="btn yes" type="button">да</button>
+        <button class="btn no" type="button">нет</button>
+      </div>
+    </main>
+
+    <div class="modal" id="surpriseModal" aria-hidden="true">
+      <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <h2 id="modalTitle">Сюрприз через</h2>
+        <p class="countdown" id="countdown">00 д 00:00:00</p>
+        <p class="modal-note">Не забудь взять спортивную форму и хорошее настроение</p>
+        <button class="modal-close" type="button">Закрыть</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

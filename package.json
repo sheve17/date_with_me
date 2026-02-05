@@ -1,0 +1,21 @@
+{
+  "name": "date_with_me",
+  "version": "1.0.0",
+  "description": "invite to date with me",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheve17/date_with_me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sheve17/date_with_me/issues"
+  },
+  "homepage": "https://github.com/sheve17/date_with_me#readme"
+}
