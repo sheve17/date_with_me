@@ -5,7 +5,7 @@ const modal = document.getElementById("surpriseModal");
 const countdown = document.getElementById("countdown");
 const modalClose = document.querySelector(".modal-close");
 
-const targetTimestamp = Date.UTC(2026, 1, 8, 9, 30, 0);
+const targetTimestamp = Date.parse("2026-02-08T12:30:00+03:00");
 
 const formatTimeUnit = (value) => String(value).padStart(2, "0");
 
@@ -53,6 +53,7 @@ setInterval(updateCountdown, 1000);
 
 yesButton.addEventListener("mouseenter", openModal);
 yesButton.addEventListener("focus", openModal);
+yesButton.addEventListener("click", openModal);
 
 modal.addEventListener("click", (event) => {
   if (event.target === modal) {
