@@ -51,8 +51,6 @@ const moveNoButton = () => {
 updateCountdown();
 setInterval(updateCountdown, 1000);
 
-yesButton.addEventListener("mouseenter", openModal);
-yesButton.addEventListener("focus", openModal);
 yesButton.addEventListener("click", openModal);
 
 modal.addEventListener("click", (event) => {

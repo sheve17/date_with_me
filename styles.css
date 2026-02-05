@@ -23,7 +23,6 @@ body {
 
 .card {
   width: min(90vw, 520px);
-  min-height: 50vh;
   background: #f8d6e8;
   border-radius: 24px;
   padding: 32px 24px;
@@ -43,8 +42,8 @@ body {
 }
 
 .heart {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   position: relative;
   background: #f38fb0;
   transform: rotate(-45deg);
@@ -55,19 +54,19 @@ body {
 .heart::after {
   content: "";
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   background: #f38fb0;
   border-radius: 50%;
 }
 
 .heart::before {
-  top: -75px;
+  top: -100px;
   left: 0;
 }
 
 .heart::after {
-  left: 75px;
+  left: 100px;
   top: 0;
 }
 
@@ -171,21 +170,21 @@ body {
   }
 
   .heart {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
   }
 
   .heart::before,
   .heart::after {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
   }
 
   .heart::before {
-    top: -60px;
+    top: -80px;
   }
 
   .heart::after {
-    left: 60px;
+    left: 80px;
   }
 }
