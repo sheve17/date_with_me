@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приглашение на свидание</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Breathing heart -->
+        <svg class="heart" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50,90 C50,90 10,60 10,35 C10,20 20,10 30,10 C40,10 45,15 50,25 C55,15 60,10 70,10 C80,10 90,20 90,35 C90,60 50,90 50,90 Z" 
+                  fill="#ffb3d9" 
+                  stroke="#ff69b4" 
+                  stroke-width="1"/>
+        </svg>
+
+        <!-- Question block -->
+        <div class="question-block">
+            <h1>ты пойдешь со мной на свидание?</h1>
+        </div>
+
+        <!-- Buttons -->
+        <div class="buttons-container">
+            <button class="btn btn-yes" id="btnYes">да</button>
+            <button class="btn btn-no" id="btnNo">нет</button>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h2>Отлично! 💕</h2>
+            <p>Встречаемся:</p>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-value" id="days">00</span>
+                    <span class="countdown-label">дней</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="hours">00</span>
+                    <span class="countdown-label">часов</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="minutes">00</span>
+                    <span class="countdown-label">минут</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-value" id="seconds">00</span>
+                    <span class="countdown-label">секунд</span>
+                </div>
+            </div>
+            <p class="date-info">8 февраля 2026, 12:30 (МСК)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
